@@ -5,9 +5,9 @@
 			{% assign current = page.url | downcase | split: '/' %}
 			<li {% if current[1] == 'index.html' %}class='current'{% endif %}><a href="/index.html">Homepage</a></li>
 			<li {% if current[1] == 'blog' %}class='current'{% endif %}><a href="/blog">Noticias</a></li>
-			<li {% if current[1] == 'left-sidebar.html' %}class='current'{% endif %}><a href="/no-sidebar.html">Projetos</a></li>
-			<li {% if current[1] == 'right-sidebar.html' %}class='current'{% endif %}><a href="/no-sidebar.html">Participantes</a></li>
-			<li {% if current[1] == 'no-sidebar.html' %}class='current'{% endif %}><a href="/no-sidebar.html">Estrutura</a></li>
+			<li {% if current[1] == 'index.html' %}class='current'{% endif %}><a href="/index.html#projects">Projetos</a></li>
+			<li {% if current[1] == 'team.html' %}class='current'{% endif %}><a href="/team.html">Participantes</a></li>
+			<li {% if current[1] == 'structure_group.html' %}class='current'{% endif %}><a href="/structure_group.html">Estrutura</a></li>
 		</ul>
 	</nav>
 </div>
