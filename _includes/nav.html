@@ -3,11 +3,24 @@
 	<nav id="nav">
 		<ul>
 			{% assign current = page.url | downcase | split: '/' %}
-			<li {% if current[1] == 'index.html' %}class='current'{% endif %}><a href="/index.html">Homepage</a></li>
-			<li {% if current[1] == 'blog' %}class='current'{% endif %}><a href="/blog">Noticias</a></li>
-			<li {% if current[1] == 'index.html' %}class='current'{% endif %}><a href="/index.html#projects">Projetos</a></li>
-			<li {% if current[1] == 'team.html' %}class='current'{% endif %}><a href="/team.html">Participantes</a></li>
-			<li {% if current[1] == 'structure_group.html' %}class='current'{% endif %}><a href="/structure_group.html">Estrutura</a></li>
+			<li {% if current[1] == 'index.html' %}class='current'{% endif %}>
+				<a href="/index.html">Homepage</a>
+			</li>
+			<li {% if current[1] == 'blog' %}class='current'{% endif %}>
+				<a href="/blog">Noticias</a>
+			</li>
+			<li {% if current[1] == 'index.html' %}class='current'{% endif %}>
+				<a href="/index.html#projects">Projetos</a>
+			</li>
+			<li {% if current[1] == 'docs' %}class='current'{% endif %}>
+					<a href="/docs.html">Publicações</a>
+				</li>
+			<li {% if current[1] == 'team.html' %}class='current'{% endif %}>
+				<a href="/team.html">Participantes</a>
+			</li>
+			<li {% if current[1] == 'structure_group.html' %}class='current'{% endif %}>
+				<a href="/structure_group.html">Estrutura</a>
+			</li>
 		</ul>
 	</nav>
 </div>
