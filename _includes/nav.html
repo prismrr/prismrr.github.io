@@ -1,25 +1,30 @@
+{% assign lang = site.active_lang %}
 <div id="nav-wrapper">
 	<!-- Nav -->
 	<nav id="nav">
 		<ul>
 			{% assign current = page.url | downcase | split: '/' %}
 			<li {% if current[1] == 'index.html' %}class='current'{% endif %}>
-				<a href="/index.html">Homepage</a>
+				<a href="{{site.baseurl}}/index.html">{{ site.data.menu['menuhome'][lang] }}</a>
 			</li>
 			<!--<li {% if current[1] == 'blog' %}class='current'{% endif %}>
 				<a href="/blog">Noticias</a>
 			</li>-->
 			<li {% if current[1] == 'docs' %}class='current'{% endif %}>
-				<a href="/docs.html">Publicações</a>
+				<a href="/docs.html">{{ site.data.menu['menupapers'][lang] }}</a>
 			</li>
 			<li {% if current[1] == 'plataformas' %}class='current'{% endif %}>
-				<a href="/plataformas.html">Plataformas</a>
+				<a href="/plataformas.html">{{ site.data.menu['menuplatforms'][lang] }}</a>
 			</li>			
 			<li {% if current[1] == 'team.html' %}class='current'{% endif %}>
-				<a href="/team.html">Participantes</a>
+				<a href="/team.html">{{ site.data.menu['menuteams'][lang] }}</a>
 			</li>
 			<li {% if current[1] == 'structure_group.html' %}class='current'{% endif %}>
-				<a href="/structure_group.html">Estrutura</a>
+				<a href="/structure_group.html">{{ site.data.menu['menustructure'][lang] }}</a>
+			</li>
+			<li>
+				<a href="{{site.baseurl}}/en/index.html">🇺🇸</a>
+				<a href="../../index.html">🇧🇷</a>
 			</li>
 		</ul>
 	</nav>

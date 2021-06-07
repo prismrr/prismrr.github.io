@@ -1,3 +1,13 @@
 name: Linear
 description: Linear template for Jekyll
 paginate: 10
+
+# data
+hello:
+  pt-BR: Olá!
+  en: Hello!    
+
+languages: ["pt-BR", "en"]
+default_lang: "pt-BR"
+exclude_from_localization: ["assets", "old"]
+parallel_localization: true
