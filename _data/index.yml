@@ -1,0 +1,79 @@
+welcome:
+  pt-BR: Bem Vindo ao Grupo de Pesquisa PRISM
+  en: Welcome to the PRISM Research Group
+
+namegroup:
+  pt-BR: Grupo de PRojeto e desenvolvImento de Sistemas eMbarcados otimizados e seguros - PRISM
+  en: Research Group of Project and Development for Optimized and Safe Embedded Systems - PRISM
+
+depart:
+  pt-BR: do Departamento de Ciência da Computação
+  en: from the Department of Computer Science
+
+university:
+  pt-BR: da Universidade Federal de Roraima.
+  en: of the Federal University of Roraima.
+
+group1:
+  pt-BR: Sistemas Embarcados Críticos
+  en: Critical Embedded Systems
+
+group1descript:
+  pt-BR: Nesta area visamos a criação de sistemas computacionais automatizados e otimizados.
+  en: In this area we aim to create automated and optimized computer systems.
+
+group2:
+  pt-BR: Verificação de Sistemas
+  en: Systems Verification
+
+group2descript:
+  pt-BR: Projetos aplicados a verificação e teste de hardware e software.
+  en: Projects applied to verification and testing of hardware and software.
+
+group3:
+  pt-BR: IoT - Internet das Coisas
+  en: IoT - Internet of Things
+
+group3descript:
+  pt-BR: Soluções baseadas na conexão entre dispositivos em análise de dados.
+  en: Solutions based on connection between devices in data analysis.
+
+tittleprojects:
+  pt-BR: Projetos do Grupo PRISM
+  en: PRISM Projects
+
+tittlestatusprojects:
+  pt-BR: Projetos em andamento
+  en: Ongoing projects
+
+map2checkdescript:
+  pt-BR: Um método automatizado para verificação de propriedades de segurança de programas escritos em C.
+  en: An automated method for checking safety properties for programs written in C.
+
+krakendescript:
+  pt-BR: Sistema autonomo para detecção e estimativa de objetos submersos em água.
+  en: Autonomous system for detecting and estimating objects submerged in water.
+
+ganagedescript:
+  pt-BR: Um sistema para geração de imagens baseado em previsão temporal para pessoas desaparecidas.
+  en: A system for generating temporal prediction-based images to missing persons.
+
+xraydescript:
+  pt-BR: Diagnóstico De Pneumonia Na Infância Utilizando Rede Neural Convolucional Profunda Para Reconhecimento De Padrões Em Imagens De Raio X.
+  en: Diagnosis of Childhood Pneumonia Using Deep Convolutional Neural Network for Pattern Recognition in X-Ray Images.
+
+titlefinishedprojects:
+  pt-BR: Projetos finalizados
+  en: Completed projects
+
+v2cdescript:
+  pt-BR: Um método para verificação formal de programas escritos em VHDL, baseado em transformações de código.
+  en: A method for formal verification of programs written in VHDL, based on code transformations.
+
+automailxdescript:
+  pt-BR: Uma prótese robótica para geração de ações em movimentos baseada em padrões musculares.
+  en: A robotic prosthesis for generating actions in movements based on muscle patterns.
+
+handiodescript:
+  pt-BR: Uma luva inteligente para o reconhecimento de padrões em gestos para conexão e comunicação entre dispositivos eletrônicos.
+  en: A smart glove for recognizing patterns in gestures for connecting and communicating between electronic devices.

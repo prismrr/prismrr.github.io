@@ -3,33 +3,34 @@ title: PRISMRR
 layout: default
 lang: pt-BR
 ---
+{% assign lang = site.active_lang %}
 <!-- Featured -->
 <div id="featured">
 	<div class="container">
 		<header>
-			<h2>Bem Vindo ao Grupo de Pesquisa PRISM</h2>
+			<h2>{{ site.data.index['welcome'][lang] }}</h2>
 		</header>
-		<p><strong>Grupo de PRojeto e desenvolvImento de Sistemas eMbarcados otimizados e seguros - PRISM</strong>
-		do <a href="http://dcc.ufrr.br">Departamento de Ciência da Computação</a>
-		da <a href="http://ufrr.br">Universidade Federal de Roraima.</a></p>		
+		<p><strong>{{ site.data.index['namegroup'][lang] }}</strong>
+		<a href="http://dcc.ufrr.br">{{ site.data.index['depart'][lang] }}</a>
+		<a href="http://ufrr.br">{{ site.data.index['university'][lang] }}</a></p>		
 		<hr />
 		<div class="row">
 			<section class="4u">
 				<span class="pennant"><span class="fa fa-cog"></span></span>
-				<h3>Sistemas Embarcados Críticos</h3>
-				<p>Nesta area visamos a criação de sistemas computacionais automatizados e otimizados.</p>
+				<h3>{{ site.data.index['group1'][lang] }}</h3>
+				<p>{{ site.data.index['group1descript'][lang] }}</p>
 				<a href="#" class="button button-style1">Read More</a>
 			</section>
 			<section class="4u">
 				<span class="pennant"><span class="fa fa-flash"></span></span>
-				<h3>Verificacao de Sistemas</h3>
-				<p>Projetos aplicados a verificação e teste de hardware e software.</p>
+				<h3>{{ site.data.index['group2'][lang] }}</h3>
+				<p>{{ site.data.index['group2descript'][lang] }}</p>
 				<a href="#" class="button button-style1">Read More</a>
 			</section>
 			<section class="4u">
 				<span class="pennant"><span class="fa fa-globe"></span></span>
-				<h3>IoT - Internet das Coisas</h3>
-				<p>Soluções baseadas na conexão entre dispositivos em análise de dados.</p>
+				<h3>{{ site.data.index['group3'][lang] }}</h3>
+				<p>{{ site.data.index['group3descript'][lang] }}</p>
 				<a href="#" class="button button-style1">Read More</a>
 			</section>
 
@@ -40,11 +41,11 @@ lang: pt-BR
 <!-- Main -->
 	<div id="main">
 		<header>
-			<h2 id="projects" align="center">Projetos do Grupo PRISM</h2>
+			<h2 id="projects" align="center">{{ site.data.index['tittleprojects'][lang] }}</h2>
 		</header>
 		<div id="content" class="container">
 			<br>
-			<div style="background-color: #0098a4; color:white; font-weight:bold;"> Projetos em andamento: </div>
+			<div style="background-color: #0098a4; color:white; font-weight:bold;"> {{ site.data.index['tittlestatusprojects'][lang] }}: </div>
 			<br>
 
 			<div class="row">
@@ -53,14 +54,14 @@ lang: pt-BR
 					<header>
 						<h2><i class="fa fa-flash"></i> Map2Check</h2>
 					</header>
-					<p>Um método automatizado para verificação de propriedades de segurança de mémoria para programas escritos em C.</p>
+					<p>{{ site.data.index['map2checkdescript'][lang] }}</p>
 				</section>
 				<section class="6u">
 					<a href="#" class="image full"><img style="height: 200px; display: block; margin: 0 auto;" src="/assets/images/underwater.jpg" alt=""></a>
 					<header>
 						<h2><i class="fa fa-globe"></i> Kraken</h2>
 					</header>
-					<p>Sistema autonomo para detecção e estimativa de objetos submersos em água.</p>
+					<p>{{ site.data.index['krakendescript'][lang] }}</p>
 				</section>				
 			</div>
 
@@ -70,20 +71,20 @@ lang: pt-BR
 					<header>
 						<h2><i class="fa fa-cog"></i> GAN-AGE</h2>
 					</header>
-					<p>Um sistema para geração de imagens baseado em previsão temporal para pessoas desaparecidas.</p>
+					<p>{{ site.data.index['ganagedescript'][lang] }}</p>
 				</section>
 				<section class="6u">
 					<a href="#" class="image full"><img style="height: 200px; display: block; margin: 0 auto;" src="/assets/images/lung_opacity.png" alt=""></a>
 					<header>
 						<h2><i class="fa fa-cog"></i> Xray-Vision</h2>
 					</header>
-					<p>Diagnóstico De Pneumonia Na Infância Utilizando Rede Neural Convolucional Profunda Para Reconhecimento De Padrões Em Imagens De Raio X.</p>
+					<p>{{ site.data.index['xraydescript'][lang] }}</p>
 				</section>
 			</div>
 			
 
 			<br>
-			<div style="background-color: #0098a4; color:white; font-weight:bold;"> Projetos finalizados: </div>
+			<div style="background-color: #0098a4; color:white; font-weight:bold;"> {{ site.data.index['titlefinishedprojects'][lang] }}: </div>
 			<br>
 
 			<div class="row">
@@ -92,14 +93,14 @@ lang: pt-BR
 					<header>
 						<h2><i class="fa fa-flash"></i> V2C</h2>
 					</header>
-					<p>Um método para verificação formal de programas escritos em VHDL, baseado em transformações de código.</p>
+					<p>{{ site.data.index['v2cdescript'][lang] }}</p>
 				</section>
 				<section class="6u">
 					<a href="#" class="image full"><img style="height: 200px; display: block; margin: 0 auto;" src="/assets/images/automail.jpg" alt=""></a>
 					<header>
 						<h2><i class="fa fa-cog"></i> AutomailX</h2>
 					</header>
-					<p>Uma prótese robótica para geração de ações em movimentos baseada em padrões musculares.</p>
+					<p>{{ site.data.index['automailxdescript'][lang] }}</p>
 				</section>
 			</div>
 
@@ -109,7 +110,7 @@ lang: pt-BR
 					<header>
 						<h2><i class="fa fa-cog"></i> Hand.io</h2>
 					</header>
-					<p>Uma luva inteligente para o reconhecimento de padrões em gestos para conexão e comunicação entre dispositivos eletrônicos.</p>
+					<p>{{ site.data.index['handiodescript'][lang] }}</p>
 				</section>
 			</div>
 
