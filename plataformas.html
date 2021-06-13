@@ -2,13 +2,13 @@
 title: Linear
 layout: default
 ---
+{% assign lang = site.active_lang %}
 <!-- Main -->
 	<div id="main">
 		<div id="content" class="container">
 			<section>
 				<header>
-					<h2>Plataformas adotadas pelo Grupo PRISM</h2>
-					<span class="byline">Lista dos participantes</span>
+					<h2>{{ site.data.plataformas['titlewelcome'][lang] }}</h2>					
 				</header>
 				
 				<br>
@@ -17,12 +17,12 @@ layout: default
 					<li>
 						<span class="date">#<strong>01</strong></span>
 						<p><i class="fa fa-slack"></i><a href="https://prismrr.slack.com/"> Slack: https://prismrr.slack.com</a>   
-                        <p>Objetivo: Organização da comunicação no desenvolvimento do projetos.</p>						
+                        <p>{{ site.data.plataformas['slackgoal'][lang] }}</p>						
 					</li>
 					<li>
 						<span class="date">#<strong>02</strong></span>
 						<p><i class="fa fa-business-time"></i><a href="https://prismrr-projects.herokuapp.com"> Redmine: https://prismrr-projects.herokuapp.com</a>                            
-                        <p>Objetivo: Gerenciador de projetos basedo em plataforma open-source.</p>						
+                        <p>{{ site.data.plataformas['redminegoal'][lang] }}</p>						
 					</li>	
 				</ul>
 
