@@ -2,13 +2,14 @@
 title: Linear
 layout: default
 ---
+{% assign lang = site.active_lang %}
 <!-- Main -->
 	<div id="main">
 		<div id="content" class="container">
 			<section>
 				<header>
-					<h2>Publicações do Grupo PRISM</h2>                        
-                        <span class="byline" style="background-color: #0098a4; color:white; font-weight:bold;">Trabalhos de Conclusão de Curso</span>
+					<h2>{{ site.data.docspage['titlewelcome'][lang] }}</h2>                        
+                        <span class="byline" style="background-color: #0098a4; color:white; font-weight:bold;">{{ site.data.docspage['coursepapers'][lang] }}</span>
                 </header>
 
                 <ul class="dates">
@@ -131,7 +132,7 @@ layout: default
 
                 <header>
 					<span class="byline" style="background-color: #0098a4; color:white; font-weight:bold;">
-                        Artigos Publicados
+                        {{ site.data.docspage['papers'][lang] }}
                     </span>
                     <br>
 
@@ -165,7 +166,7 @@ layout: default
 
                 <header>
 					<span class="byline" style="background-color: #0098a4; color:white; font-weight:bold;">
-                        Projetos de Iniciação Científica - PIC
+                        {{ site.data.docspage['pic'][lang] }}
                     </span>
                     <br>
 
