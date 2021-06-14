@@ -2,38 +2,36 @@
 title: Linear
 layout: default
 ---
+{% assign lang = site.active_lang %}
 <!-- Main -->
 	<div id="main">
 		<div id="content" class="container">
 			<section>
 				<header>
-					<h2>Estrutura do Grupo PRISM</h2>
+					<h2>{{ site.data.infra['titleinfra'][lang] }}</h2>
 					<span class="byline">
-						O Grupo PRISM está localizado no Laboratório de Sistemas Distribuidos no seguinte endereço:
-						Universidade Federal de Roraima (UFRR), Bloco III, na Av. Cap. Ene Garcez, 2413, Bairro Aeroporto,
-                        Boa Vista - RR
+						{{ site.data.infra['locationtxt'][lang] }}
 					</span>
 				</header>
 
 				<span>
-					O Laboratório do Grupo PRISM conta com acesso a equipamentos disponibilizados pelo
-					Departamento de Ciência da Computação da UFRR, tais como:
+					{{ site.data.infra['labtxt'][lang] }}:
 				</span>
 				<ul style="list-style-type:square;">
 					<li>
-						Computadores com acesso a internet
+						{{ site.data.infra['labtxtitem1'][lang] }}
 					</li>
 					<li>
-						Kits de eletrônica
+						{{ site.data.infra['labtxtitem2'][lang] }}
 					</li>
 					<li>
-						Osciloscopio Digital
+						{{ site.data.infra['labtxtitem3'][lang] }}
 					</li>
 					<li>
-						Multimetros Analogicos e Digitais
+						{{ site.data.infra['labtxtitem4'][lang] }}
 					</li>
 					<li>
-						Placas de desenvolvimento: 8051 e Intel Galileo
+						{{ site.data.infra['labtxtitem5'][lang] }}
 					</li>
 				</ul>
 
@@ -43,28 +41,31 @@ layout: default
 					</br>
 
 				<header class="major">
-					<h2>Venha conhecer o nosso Grupo de Pesquisa PRISM! </h2>
+					<h2>{{ site.data.infra['tittleinv'][lang] }}</h2>
 				</header>
 
-				<ul style="list-style-type:square;">
-					<li>
-						<b>Alunos da disciplina de Introdução a Sistemas Embarcados executando projetos no Laboratório de Hardware</b>
-						<img class="image full" style="height: 40%; width: 40%; margin: 0 auto;" src="/assets/images/lab/lab_hardware.jpg" />
-					</li>
-					<li>
-						<b>Apresentação do protótipo de alimentação para Pets</b>
-						<img class="image full" style="height: 40%; width: 40%; margin: 0 auto;" src="/assets/images/lab/project_pet.jpg" />
-					</li>
-					<li>
-						<b>Apresentação do protótipo de irrigação autonomo</b>
-						<img class="image full" style="height: 40%; width: 40%; margin: 0 auto;" src="/assets/images/lab/project_irriga.jpg" />
-					</li>
-					<li>
-						<b>Apresentação do protótipo de fechadura com reconhecimento facial</b>
-						<img class="image full" style="height: 40%; width: 40%; margin: 0 auto;" src="/assets/images/lab/project_face.jpg" />
-					</li>
-				</ul>
+				<div class="row">
+					<section class="6u">
+						<center> <img style="height: 80%; width: 80%; margin: 0 auto;" src="/assets/images/lab/lab_hardware.jpg" alt=""> </center>
+						<p>{{ site.data.infra['labdescitem1'][lang] }}</p>
+					</section>
+					<section class="6u">
+						<center> <img style="height: 80%; width: 80%; margin: 0 auto;" src="/assets/images/lab/project_pet.jpg" alt=""> </center>	
+						<p>{{ site.data.infra['labdescitem2'][lang] }}</p>
+					</section>				
+				</div>
 
+				<div class="row">
+					<section class="6u">
+						<center> <img style="height: 80%; width: 80%; margin: 0 auto;" src="/assets/images/lab/project_irriga.jpg" alt=""> </center>
+						<p>{{ site.data.infra['labdescitem3'][lang] }}</p>
+					</section>
+					<section class="6u">
+						<center> <img style="height: 80%; width: 80%; margin: 0 auto;" src="/assets/images/lab/project_face.jpg" alt=""> </center>	
+						<p>{{ site.data.infra['labdescitem4'][lang] }}</p>
+					</section>				
+				</div>
+				
 			</section>
 		</div>
 	</div>

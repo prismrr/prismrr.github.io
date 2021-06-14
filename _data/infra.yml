@@ -1,0 +1,51 @@
+titleinfra:
+  pt-BR: Infraestrutura do Grupo PRISM
+  en: PRISM Group Infrastructure
+
+locationtxt:
+  pt-BR: O Grupo PRISM está localizado no Laboratório de Sistemas Distribuidos no seguinte endereço, Universidade Federal de Roraima (UFRR), Bloco III, na Av. Cap. Ene Garcez, 2413, Bairro Aeroporto, Boa Vista - RR.
+  en: The PRISM Group is located at the Distributed Systems Laboratory in the following address, Federal University of Roraima (UFRR), Block III, at Av. Cap. Ene Garcez, 2413, Bairro Aeroporto, Boa Vista - RR.
+
+labtxt:
+  pt-BR: O Laboratório do Grupo PRISM conta com acesso a equipamentos disponibilizados pelo Departamento de Ciência da Computação da UFRR, tais como
+  en: The PRISM Group Laboratory has access to equipment provided by the Department of Computer Science at UFRR, such as
+
+labtxtitem1:
+  pt-BR: Computadores com acesso à internet
+  en: Computers with internet access
+
+labtxtitem2:
+  pt-BR: Kits de eletrônica
+  en: Electronics Kits
+
+labtxtitem3:
+  pt-BR: Osciloscopio Digital
+  en: Digital Oscilloscope
+
+labtxtitem4:
+  pt-BR: Multímetros Analógicos e Digitais
+  en: Analog and Digital Multimeters
+
+labtxtitem5:
+  pt-BR: Placas de desenvolvimento 8051, Raspberry Pi, e Intel Galileo
+  en: Development Boards 8051, Raspberry Pi, and Intel Galileo
+
+tittleinv:
+  pt-BR: Venha conhecer o nosso Grupo de Pesquisa PRISM!
+  en: Come see our Research Group PRISM!
+
+labdescitem1:
+  pt-BR: Alunos da disciplina de Introdução a Sistemas Embarcados executando projetos no Laboratório de Hardware.
+  en: Introduction to Embedded Systems students performing projects in the Hardware Laboratory. 
+
+labdescitem2:
+  pt-BR: Apresentação do protótipo de alimentação para Pets.
+  en: Presentation of the prototype of pet food.
+
+labdescitem3:
+  pt-BR: Apresentação do protótipo de irrigação autonomo.
+  en: Presentation of the autonomous irrigation prototype.
+
+labdescitem4:
+  pt-BR: Apresentação do protótipo de fechadura com reconhecimento facial.
+  en: Presentation of the prototype of the lock with facial recognition.
