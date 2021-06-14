@@ -2,17 +2,18 @@
 title: Linear
 layout: default
 ---
+{% assign lang = site.active_lang %}
 <!-- Main -->
 	<div id="main">
 		<div id="content" class="container">
 			<section>
 				<header>
-					<h2>Equipe do Grupo PRISM</h2>
-					<span class="byline">Lista dos participantes</span>
+					<h2>{{ site.data.team['titlewelcome'][lang] }}</h2>
+					<span class="byline">{{ site.data.team['titlelistteam'][lang] }}</span>
 				</header>
 				
 				<p style="text-align:justify">
-                       <strong>Líder do grupo: </strong>
+                       <strong>{{ site.data.team['headerteam'][lang] }}: </strong>
 				</p>
 				
 				<ul class="dates">
@@ -20,75 +21,75 @@ layout: default
 						<span class="date">#<strong>01</strong></span>
 						<p>Prof. Dr. Herbert Oliveira Rocha <a href="https://github.com/hbgit"><i class="fa fa-github"></i></a>    
                         <a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4278298P9"><i class="fa  fa-user"></i></a></p>
-                        <p>Desde de 2015 até Atualmente.</p>
+                        <p>{{ site.data.team['tittlesince'][lang] }} 2015.</p>
 						<p>Federal University of Roraima,  Brazil.</p>
 					</li>										
 				</ul>
 
 				<p style="text-align:justify">
-                      <div style="background-color: #0098a4; color:white; font-weight:bold;"> Membros com trabalhos em andamento: </div>
+                      <div style="background-color: #0098a4; color:white; font-weight:bold;"> {{ site.data.team['tittleongoing'][lang] }}: </div>
 				</p>				
 				<ul class="dates">
 					<li>
 						<span class="date">#<strong>01</strong></span>
 						<p>Ewelly Fabiane Cunha de Sousa<a href=""><i class="fa fa-github"></i></a>    
                         <a href="http://lattes.cnpq.br/3854438280772739"><i class="fa  fa-user"></i></a></p>
-                        <p>Desde de 2018.</p>
-						<p>Projeto: Kraken Rover.</p>
+                        <p>{{ site.data.team['tittlesince'][lang] }} 2018.</p>
+						<p>{{ site.data.team['tittleproject'][lang] }}: Kraken Rover.</p>
 					</li>										
 					<li>
 						<span class="date">#<strong>02</strong></span>
 						<p>Miller Raycell Monteiro Correia
                         <a href=""><i class="fa fa-github"></i></a>    
                         <a href=""><i class="fa  fa-user"></i></a></p>
-                        <p>Desde de 2019.</p>
-						<p>Projeto: Police Drone.</p>
+                        <p>{{ site.data.team['tittlesince'][lang] }} 2019.</p>
+						<p>{{ site.data.team['tittleproject'][lang] }}: Police Drone.</p>
 					</li>										
 					<li>
 						<span class="date">#<strong>03</strong></span>
 						<p>Larissa Santos Silva
                         <a href=""><i class="fa fa-github"></i></a>    
                         <a href=""><i class="fa  fa-user"></i></a></p>
-                        <p>Desde de 2019.</p>
-						<p>Projeto: Advanced Medical Diagnostic.</p>
+                        <p>{{ site.data.team['tittlesince'][lang] }} 2019.</p>
+						<p>{{ site.data.team['tittleproject'][lang] }}: Advanced Medical Diagnostic.</p>
 					</li>										
 					<li>
 						<span class="date">#<strong>04</strong></span>
 						<p>João Paulo Parreira Peixoto
                         <a href=""><i class="fa fa-github"></i></a>    
                         <a href=""><i class="fa  fa-user"></i></a></p>
-                        <p>Desde de 2019.</p>
-						<p>Projeto: Personality Age.</p>
+                        <p>{{ site.data.team['tittlesince'][lang] }} 2019.</p>
+						<p>{{ site.data.team['tittleproject'][lang] }}: Personality Age.</p>
 					</li>										
 					<li>
 						<span class="date">#<strong>05</strong></span>
 						<p>Allan Cordeiro Rocha de Araujo
                         <a href=""><i class="fa fa-github"></i></a>    
                         <a href=""><i class="fa  fa-user"></i></a></p>
-                        <p>Desde de 2019.</p>
-						<p>Projeto: Stock prediction.</p>
+                        <p>{{ site.data.team['tittlesince'][lang] }} 2019.</p>
+						<p>{{ site.data.team['tittleproject'][lang] }}: Stock prediction.</p>
 					</li>										
 					<li>
 						<span class="date">#<strong>06</strong></span>
 						<p>Markus Kaul Monteiro Gerrits
                         <a href=""><i class="fa fa-github"></i></a>    
                         <a href=""><i class="fa  fa-user"></i></a></p>
-                        <p>Desde de 2019.</p>
-						<p>Projeto: TBA.</p>
+                        <p>{{ site.data.team['tittlesince'][lang] }} 2019.</p>
+						<p>{{ site.data.team['tittleproject'][lang] }}: TBA.</p>
 					</li>										
 					<li>
 						<span class="date">#<strong>07</strong></span>
 						<p>Francirso Pereira do Nascimento
                         <a href=""><i class="fa fa-github"></i></a>    
                         <a href=""><i class="fa  fa-user"></i></a></p>
-                        <p>Desde de 2019.</p>
-						<p>Projeto: TBA.</p>
+                        <p>{{ site.data.team['tittlesince'][lang] }} 2019.</p>
+						<p>{{ site.data.team['tittleproject'][lang] }}: TBA.</p>
 					</li>										
 				</ul>
 
 				
 				<p style="text-align:justify">
-					<div style="background-color: #0098a4; color:white; font-weight:bold;"> Membros com trabalhos concluidos: </div>
+					<div style="background-color: #0098a4; color:white; font-weight:bold;"> {{ site.data.team['tittlefinished'][lang] }}: </div>
 				</p>
 				<ul class="dates">
 					<li>
@@ -97,8 +98,8 @@ layout: default
 						<a href="https://github.com/RafaelSa94"><i class="fa fa-github"></i></a>    
                         <a href="http://lattes.cnpq.br/9276676299919657"><i class="fa fa-user"></i></a>
 						</p>
-                        <p>Desde de 2016 até 2017.</p>
-						<p>Projeto: Map2Check</p>
+                        <p>{{ site.data.team['tittlesince'][lang] }} 2016 {{ site.data.team['tittleuntil'][lang] }} 2017.</p>
+						<p>{{ site.data.team['tittleproject'][lang] }}: Map2Check</p>
 					</li>										
 					<li>
 						<span class="date">#<strong>02</strong></span>
@@ -106,8 +107,8 @@ layout: default
 						<a href="#"><i class="fa fa-github"></i></a>    
                         <a href="http://lattes.cnpq.br/8381209354211683"><i class="fa fa-user"></i></a>
 						</p>
-                        <p>Desde de 2016 até 2018.</p>
-						<p>Projeto: Hand.io</p>
+                        <p>{{ site.data.team['tittlesince'][lang] }} 2016 {{ site.data.team['tittleuntil'][lang] }} 2018.</p>
+						<p>{{ site.data.team['tittleproject'][lang] }}: Hand.io</p>
 					</li>
 					<li>
 						<span class="date">#<strong>03</strong></span>
@@ -115,17 +116,17 @@ layout: default
 						<a href="#"><i class="fa fa-github"></i></a>    
                         <a href="http://lattes.cnpq.br/7266964725102582"><i class="fa fa-user"></i></a>
 						</p>
-                        <p>Desde de 2016 até 2018.</p>
-						<p>Projeto: V2C</p>
+                        <p>{{ site.data.team['tittlesince'][lang] }} 2016 {{ site.data.team['tittleuntil'][lang] }} 2018.</p>
+						<p>{{ site.data.team['tittleproject'][lang] }}: V2C</p>
 					</li>
 					<li>
 						<span class="date">#<strong>04</strong></span>
 						<p>Rodrigo dos Santos Tavares 
 						<a href="#"><i class="fa fa-github"></i></a>    
                         <a href="http://lattes.cnpq.br/3943864397649252"><i class="fa fa-user"></i></a>						
-                        <p>Desde de 2016 até 2018.</p>
+                        <p>{{ site.data.team['tittlesince'][lang] }} 2016 {{ site.data.team['tittleuntil'][lang] }} 2018.</p>
                         </p>
-						<p>Projeto: AutomailX</p>
+						<p>{{ site.data.team['tittleproject'][lang] }}: AutomailX</p>
 					</li>
 					<li>
 						<span class="date">#<strong>05</strong></span>
@@ -133,8 +134,8 @@ layout: default
 						<a href="#"><i class="fa fa-github"></i></a>   
                         <a href="http://lattes.cnpq.br/0951243247037575"><i class="fa fa-user"></i></a>
 						</p>
-                        <p>Desde de 2016 até 2018.</p>
-						<p>Projeto: Kraken</p>
+                        <p>{{ site.data.team['tittlesince'][lang] }} 2016 {{ site.data.team['tittleuntil'][lang] }} 2018.</p>
+						<p>{{ site.data.team['tittleproject'][lang] }}: Kraken</p>
 					</li>
 					<li>
 						<span class="date">#<strong>06</strong></span>
@@ -142,8 +143,8 @@ layout: default
 						<a href="#"><i class="fa fa-github"></i></a>   
                         <a href="http://lattes.cnpq.br/2404015513302370"><i class="fa fa-user"></i></a>
 						</p>
-                        <p>Desde de 2017 até 2018.</p>
-						<p>Projeto: Kraken</p>
+                        <p>{{ site.data.team['tittlesince'][lang] }} 2017 {{ site.data.team['tittleuntil'][lang] }} 2018.</p>
+						<p>{{ site.data.team['tittleproject'][lang] }}: Kraken</p>
 					</li>
 
 				</ul>
