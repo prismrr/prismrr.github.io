@@ -9,3 +9,15 @@ slackgoal:
 redminegoal:
   pt-BR: Objetivo - Gerenciador de projetos basedo em plataforma open-source.
   en: Objective - Project manager based on open-source platform.
+
+softwareadopted:
+  pt-BR: Software adotados pelo Grupo PRISM
+  en: Software adopted by the PRISM Group
+
+imgsoftwareadopted:
+  pt-BR: /assets/images/prism_plat_pt.png
+  en: /assets/images/prism_plat_eng.png
+
+txtsoftwareadopted:
+  pt-BR: Este são os principais software adotados no desenvolvimento das soluções projetadas e pesquisadas pelo grupo de pesquisa.
+  en: These are the main software adopted in the development of solutions designed and researched by the research group.
