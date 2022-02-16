@@ -5,7 +5,33 @@ layout: default
 {% assign lang = site.active_lang %}
 <!-- Main -->
 	<div id="main">
-		<div id="content" class="container">
+		<div id="content" class="container">			
+			<section>
+				<header>
+					<h2>{{ site.data.plataformas['softwareadopted'][lang] }}</h2>					
+				</header>
+
+				<p>{{ site.data.plataformas['txtsoftwareadopted'][lang] }}</p>
+
+				<img style="height: 70%; width: 70%; display: block; margin: 0 auto;" src="{{ site.data.plataformas['imgsoftwareadopted'][lang] }}" alt="">
+				
+				<br>
+			</section>
+
+			<section>
+				<header>
+					<h2>{{ site.data.plataformas['txttitleflow'][lang] }}</h2>					
+				</header>
+				
+				<br>
+
+				<p>{{ site.data.plataformas['txtflow'][lang] }}</p>
+
+				<img style="height: 50%; width: 50%; display: block; margin: 0 auto;" src="{{ site.data.plataformas['imgworkflow'][lang] }}" alt="">
+
+				
+			</section>
+
 			<section>
 				<header>
 					<h2>{{ site.data.plataformas['titlewelcome'][lang] }}</h2>					
@@ -26,17 +52,19 @@ layout: default
 					</li>	
 				</ul>
 			</section>
+
 			<section>
 				<header>
-					<h2>{{ site.data.plataformas['softwareadopted'][lang] }}</h2>					
+					<h2>{{ site.data.plataformas['txttitlelangs'][lang] }}</h2>					
 				</header>
-
-				<p>{{ site.data.plataformas['txtsoftwareadopted'][lang] }}</p>
-
-				<img style="height: 70%; width: 70%; display: block; margin: 0 auto;" src="{{ site.data.plataformas['imgsoftwareadopted'][lang] }}" alt="">
 				
 				<br>
+
+				<img style="height: 50%; width: 50%; display: block; margin: 0 auto;" src="{{ site.data.plataformas['imglangs'][lang] }}" alt="">
+
+				
 			</section>
+
 		</div>
 	</div>
 <!-- /Main -->

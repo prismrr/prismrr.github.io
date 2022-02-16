@@ -1,6 +1,6 @@
 titlewelcome:
-  pt-BR: Plataformas adotadas pelo Grupo PRISM
-  en: Platforms adopted by the PRISM Group
+  pt-BR: Gerenciamento de projetos no Grupo PRISM
+  en: Project management at PRISM Group
 
 slackgoal:
   pt-BR: Objetivo - Organização da comunicação no desenvolvimento do projetos.
@@ -21,3 +21,23 @@ imgsoftwareadopted:
 txtsoftwareadopted:
   pt-BR: Este são os principais software adotados no desenvolvimento das soluções projetadas e pesquisadas pelo grupo de pesquisa.
   en: These are the main software adopted in the development of solutions designed and researched by the research group.
+
+txttitleflow:
+  pt-BR: Fluxo de Trabalhos
+  en: Workflow
+
+txtflow:
+  pt-BR: Fluxo de execução e desenvolvimento de projetos pelo grupo de pesquisa.
+  en: Execution flow to development of projects by the research group.
+
+imgworkflow:
+  pt-BR: /assets/images/wokflow_pt.png
+  en: /assets/images/wokflow_eng.png
+
+txttitlelangs:
+  pt-BR: Linguagens de Programação
+  en: Programming languages 
+
+imglangs:
+  pt-BR: /assets/images/prism_lang_pt.png
+  en: /assets/images/prism_lang_eng.png
