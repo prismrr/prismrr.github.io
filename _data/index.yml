@@ -169,3 +169,7 @@ research-line-4-2:
 research-line-4-3:
   pt-BR: Sistemas Híbridos de Apoio à Decisão (Human-in-the-Loop) - Desenvolvimento de dashboards inteligentes com análise preditiva e prescritiva para engenheiros e gestores.
   en: Hybrid Decision Support Systems (Human-in-the-Loop) - Development of intelligent dashboards with predictive and prescriptive analytics for engineers and managers.
+
+research-lines-img:
+  pt-BR: /assets/images/PRISM_areas.png
+  en: /assets/images/PRISM_areas_eng.png
