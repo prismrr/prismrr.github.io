@@ -131,8 +131,8 @@ research-line-2-3:
   en: Digital Twins - Virtual models that replicate physical systems for simulation and control.
 
 research-line-3:
-  pt-BR: Verificação e Testes Automatizados de Hardware e Software
-  en: Automated Verification and Testing of Hardware and Software
+  pt-BR: Verificação e Testes Automatizados
+  en: Automated Verification and Testing
 
 research-line-3-descript:
   pt-BR: A Verificação e Testes Automatizados garantem a confiabilidade de sistemas eletrônicos e de software, especialmente em aplicações críticas (ex. aeronáutica, medicina, automotivo). Técnicas como verificação formal, testes baseados em modelos e automação de testes aceleram a detecção de falhas.
@@ -149,3 +149,23 @@ research-line-3-2:
 research-line-3-3:
   pt-BR: Testes em hardware reconfigurável (ex. uso de FPGAs para prototipagem rápida).
   en: Testing on reconfigurable hardware (e.g., using FPGAs for rapid prototyping).
+
+research-line-4:
+  pt-BR: Sistemas de Decisão em Engenharia Aplicada
+  en: Decision Systems in Applied Engineering
+
+research-line-4-descript:
+  pt-BR: Desenvolver e aprimorar sistemas inteligentes de apoio à decisão (SIAD) aplicados a problemas complexos de engenharia, combinando técnicas de inteligência artificial (IA), otimização, ciência de dados e modelagem computacional para auxiliar na tomada de decisões técnicas, operacionais e estratégicas em contextos industriais, logísticos, energéticos e de infraestrutura.
+  en: Develop and enhance intelligent decision support systems (IDSS) applied to complex engineering problems, combining artificial intelligence (AI), optimization, data science, and computational modeling techniques to assist in technical, operational, and strategic decision-making in industrial, logistics, energy, and infrastructure contexts.
+
+research-line-4-1:
+  pt-BR: Modelagem e Simulação para Decisões em Engenharia - Desenvolvimento de modelos matemáticos e simulações baseadas em agentes para prever cenários em sistemas complexos (ex. cadeias de suprimentos, redes de energia, tráfego urbano).
+  en: Modeling and Simulation for Engineering Decisions - Development of mathematical models and agent-based simulations to predict scenarios in complex systems (e.g., supply chains, energy networks, urban traffic).
+
+research-line-4-2:
+  pt-BR: Otimização e Algoritmos para Decisões Autônomas - Aplicação de algoritmos de otimização multiobjetivo (ex. algoritmos genéticos, swarm intelligence) em problemas de alocação de recursos, roteirização e gestão de produção.
+  en: Optimization and Algorithms for Autonomous Decisions - Application of multi-objective optimization algorithms (e.g., genetic algorithms, swarm intelligence) in resource allocation, routing, and production management problems.
+
+research-line-4-3:
+  pt-BR: Sistemas Híbridos de Apoio à Decisão (Human-in-the-Loop) - Desenvolvimento de dashboards inteligentes com análise preditiva e prescritiva para engenheiros e gestores.
+  en: Hybrid Decision Support Systems (Human-in-the-Loop) - Development of intelligent dashboards with predictive and prescriptive analytics for engineers and managers.
