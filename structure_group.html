@@ -4,69 +4,76 @@ layout: default
 ---
 {% assign lang = site.active_lang %}
 <!-- Main -->
-	<div id="main">
-		<div id="content" class="container">
-			<section>
-				<header>
-					<h2>{{ site.data.infra['titleinfra'][lang] }}</h2>
-					<span class="byline">
-						{{ site.data.infra['locationtxt'][lang] }}
-					</span>
-				</header>
-
-				<span>
-					{{ site.data.infra['labtxt'][lang] }}:
+<div id="main">
+	<div id="content" class="container">
+		<section>
+			<header>
+				<h2 align="center">{{ site.data.infra['titleinfra'][lang] }}</h2>
+				<span class="byline">
+					<p align="justify">{{ site.data.infra['locationtxt'][lang] }}</p>
 				</span>
-				<ul style="list-style-type:square;">
-					<li>
-						{{ site.data.infra['labtxtitem1'][lang] }}
-					</li>
-					<li>
-						{{ site.data.infra['labtxtitem2'][lang] }}
-					</li>
-					<li>
-						{{ site.data.infra['labtxtitem3'][lang] }}
-					</li>
-					<li>
-						{{ site.data.infra['labtxtitem4'][lang] }}
-					</li>
-					<li>
-						{{ site.data.infra['labtxtitem5'][lang] }}
-					</li>
-				</ul>
+			</header>
 
-					<img class="image full" style="height: 40%; width: 40%; margin: 0 auto;" src="/assets/images/lab/hardware_sample.jpg"/>
-					</br>
-					</br>
-					</br>
+			<header class="major">
+				<h2 align="center">{{ site.data.infra['tittleinv'][lang] }}</h2>
+			</header>
 
-				<header class="major">
-					<h2>{{ site.data.infra['tittleinv'][lang] }}</h2>
-				</header>
+			<br>
 
-				<div class="row">
-					<section class="6u">
-						<center> <img style="height: 80%; width: 80%; margin: 0 auto;" src="/assets/images/lab/lab_hardware.jpg" alt=""> </center>
-						<p>{{ site.data.infra['labdescitem1'][lang] }}</p>
-					</section>
-					<section class="6u">
-						<center> <img style="height: 80%; width: 80%; margin: 0 auto;" src="/assets/images/lab/project_pet.jpg" alt=""> </center>	
-						<p>{{ site.data.infra['labdescitem2'][lang] }}</p>
-					</section>				
-				</div>
+			<div class="row">				
+				<p style="font-size: 1.2em;">
+					{{ site.data.infra['labtxt'][lang] }}:
+				</p>
+			</div>
+			
+			<ul style="list-style-type:square;">
+				<li>
+					{{ site.data.infra['labtxtitem1'][lang] }}
+				</li>
+				<li>
+					{{ site.data.infra['labtxtitem2'][lang] }}
+				</li>
+				<li>
+					{{ site.data.infra['labtxtitem3'][lang] }}
+				</li>
+				<li>
+					{{ site.data.infra['labtxtitem4'][lang] }}
+				</li>
+				<li>
+					{{ site.data.infra['labtxtitem5'][lang] }}
+				</li>
+			</ul>
 
-				<div class="row">
-					<section class="6u">
-						<center> <img style="height: 80%; width: 80%; margin: 0 auto;" src="/assets/images/lab/project_irriga.jpg" alt=""> </center>
-						<p>{{ site.data.infra['labdescitem3'][lang] }}</p>
-					</section>
-					<section class="6u">
-						<center> <img style="height: 80%; width: 80%; margin: 0 auto;" src="/assets/images/lab/project_face.jpg" alt=""> </center>	
-						<p>{{ site.data.infra['labdescitem4'][lang] }}</p>
-					</section>				
-				</div>
-				
-			</section>
-		</div>
+				<img class="image full" style="height: 40%; width: 40%; margin: 0 auto;" src="/assets/images/lab/hardware_sample.jpg"/>
+				</br>
+				</br>
+				</br>
+
+			
+
+			<div class="row">
+				<section class="6u">
+					<center> <img style="height: 80%; width: 80%; margin: 0 auto;" src="/assets/images/lab/lab_hardware.jpg" alt=""> </center>
+					<p>{{ site.data.infra['labdescitem1'][lang] }}</p>
+				</section>
+				<section class="6u">
+					<center> <img style="height: 80%; width: 80%; margin: 0 auto;" src="/assets/images/lab/project_pet.jpg" alt=""> </center>	
+					<p>{{ site.data.infra['labdescitem2'][lang] }}</p>
+				</section>				
+			</div>
+
+			<div class="row">
+				<section class="6u">
+					<center> <img style="height: 80%; width: 80%; margin: 0 auto;" src="/assets/images/lab/project_irriga.jpg" alt=""> </center>
+					<p>{{ site.data.infra['labdescitem3'][lang] }}</p>
+				</section>
+				<section class="6u">
+					<center> <img style="height: 80%; width: 80%; margin: 0 auto;" src="/assets/images/lab/project_face.jpg" alt=""> </center>	
+					<p>{{ site.data.infra['labdescitem4'][lang] }}</p>
+				</section>				
+			</div>
+			
+		</section>
 	</div>
+</div>
 <!-- /Main -->
