@@ -27,8 +27,13 @@ labtxtitem4:
   en: Analog and Digital Multimeters
 
 labtxtitem5:
-  pt-BR: Placas de desenvolvimento 8051, Raspberry Pi, e Intel Galileo
-  en: Development Boards 8051, Raspberry Pi, and Intel Galileo
+  pt-BR: Placas de desenvolvimento 8051, Arduino, ESP-32, Raspberry Pi, e Intel Galileo
+  en: Development Boards 8051, Arduino, ESP-32, Raspberry Pi, and Intel Galileo
+
+labtxtitem6:
+  pt-BR: Impressora 3D e Drones
+  en: 3D Printer and Drones
+
 
 tittleinv:
   pt-BR: Venha conhecer o nosso Grupo de Pesquisa PRISM!
