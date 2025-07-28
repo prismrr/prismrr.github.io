@@ -11,3 +11,7 @@ languages: ["pt-BR", "en"]
 default_lang: "pt-BR"
 exclude_from_localization: ["assets", "old"]
 parallel_localization: true
+
+# gallery
+imagesurl: "/assets/images/galley/"
+thumbsurl: "/assets/images/thumbs/"
