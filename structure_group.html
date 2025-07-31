@@ -46,35 +46,12 @@ layout: default
 					{{ site.data.infra['labtxtitem6'][lang] }}
 				</li>
 			</ul>
+			<br>
 
-				<img class="image full" style="height: 40%; width: 40%; margin: 0 auto;" src="/assets/images/lab/hardware_sample.jpg"/>
-				</br>
-				</br>
-				</br>
-
-			
-
+			<!-- Gallery -->
 			<div class="row">
-				<section class="6u">
-					<center> <img style="height: 80%; width: 80%; margin: 0 auto;" src="/assets/images/lab/lab_hardware.jpg" alt=""> </center>
-					<p>{{ site.data.infra['labdescitem1'][lang] }}</p>
-				</section>
-				<section class="6u">
-					<center> <img style="height: 80%; width: 80%; margin: 0 auto;" src="/assets/images/lab/project_pet.jpg" alt=""> </center>	
-					<p>{{ site.data.infra['labdescitem2'][lang] }}</p>
-				</section>				
-			</div>
-
-			<div class="row">
-				<section class="6u">
-					<center> <img style="height: 80%; width: 80%; margin: 0 auto;" src="/assets/images/lab/project_irriga.jpg" alt=""> </center>
-					<p>{{ site.data.infra['labdescitem3'][lang] }}</p>
-				</section>
-				<section class="6u">
-					<center> <img style="height: 80%; width: 80%; margin: 0 auto;" src="/assets/images/lab/project_face.jpg" alt=""> </center>	
-					<p>{{ site.data.infra['labdescitem4'][lang] }}</p>
-				</section>				
-			</div>
+				{% include image-gallery.html folder="/assets/images/lab" %}		
+			</div>		
 			
 		</section>
 	</div>
