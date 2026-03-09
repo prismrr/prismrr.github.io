@@ -9,8 +9,7 @@ The website is available at https://prismrr.github.io by github pages.
 Install packages:
 ```bash
 sudo dnf install -y ruby-devel rubygem-jekyll
-gem install bundler jekyll
-jekyll build
-jekyll serve
+bundle exec jekyll serve
+bundle exec jekyll serve
 ```
 
